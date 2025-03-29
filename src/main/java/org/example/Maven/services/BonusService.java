@@ -1,3 +1,5 @@
+package org.example.Maven.services;
+
 public class BonusService {
 
     public int calcBonus(int amount, boolean isRegistered) {

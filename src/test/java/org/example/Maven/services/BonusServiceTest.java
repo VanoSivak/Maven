@@ -1,3 +1,5 @@
+package org.example.Maven.services;
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
