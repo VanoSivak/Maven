@@ -1,14 +1,26 @@
+import org.example.Maven.services.SqrtService;
+
 public class Main {
 
-    public static  void main(String[]args) {
-        BonusService service = new BonusService();
+    public  static  void  main(String[] args) {
+        int x = 27;
 
-        int expected = 150;
-        int actual = service.calcBonus(5_000, true);
-        System.out.println("1. " + expected +" == ? == " + actual);
+        SqrtService service = new SqrtService();
+        System.out.println(service.calcSqrt(27));
 
-        expected = 50;
-        actual = service.calcBonus(5_000, false);
-        System.out.println("2. " + expected +" == ? == " + actual);
+//        while (x < 10) {
+//            System.out.println("Hello, " + x);
+//            x = x + 1;
+//        }
+//
+//        for (int i = 0;i < 10;i++) {
+//            if (i == 3) {
+//                continue;
+//            }
+//            if (i == 6) {
+//                break;
+//            }
+//            System.out.println(i);
+//        }
     }
 }
