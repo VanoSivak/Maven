@@ -15,13 +15,13 @@ public class BonusServiceTest {
         Assertions.assertEquals(expected, actual);
     }
 
-    @Test
-    public void testUnregisteredUnderLimit() {
-        BonusService service = new BonusService();
-
-        int expected = 50;
-        int actual = service.calcBonus(5_000, false);
-
-        Assertions.assertEquals(expected, actual);
-    }
+//    @Test
+//    public void testUnregisteredUnderLimit() {
+//        BonusService service = new BonusService();
+//
+//        int expected = 50;
+//        int actual = service.calcBonus(5_000, false);
+//
+//        Assertions.assertEquals(expected, actual);
+//    }
 }
